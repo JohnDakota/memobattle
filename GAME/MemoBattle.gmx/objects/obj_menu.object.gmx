@@ -58,7 +58,7 @@ mpos = 0;
             <kind>1</kind>
             <string>var menumove = 0;
 menumove -= max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);
-menumove += max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("W")),0);
+menumove += max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("S")),0);
 
 if (menumove != 0){
     mpos += menumove;
