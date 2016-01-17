@@ -68,9 +68,9 @@ if (movex &lt; 0) currentsprite = sprite9_Rudolph_left;
 if (movey &lt; 0) currentsprite = sprite0_Rudolph_up;
 if (movey &gt; 0) currentsprite = sprite8_Rudolph_down;
 
-if(movex != 0 &amp;&amp; pos[0] + movex &gt;= 0 &amp;&amp; pos[0] + movex &lt; levelsize[0]) pos[0] += movex; //replace 16 with the maximum value for the x-position of the cat
+if(movex != 0 &amp;&amp; pos[0] + movex &gt;= 0 &amp;&amp; pos[0] + movex &lt; levelsize[0]) pos[0] += movex;
 
-if(movey != 0 &amp;&amp; pos[1] + movey &gt;= 0 &amp;&amp; pos[1] + movey &lt; levelsize[1]) pos[1] += movey; //replace 9 with the maximum value for the x-position of the cat
+if(movey != 0 &amp;&amp; pos[1] + movey &gt;= 0 &amp;&amp; pos[1] + movey &lt; levelsize[1]) pos[1] += movey;
 </string>
           </argument>
         </arguments>
