@@ -5,43 +5,51 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\sound0_MJAU 6</sound>
-    <sound>sound\sound1_MJAU 7</sound>
-    <sound>sound\sound2_MJAU 8</sound>
-    <sound>sound\sound3_MJAU 9</sound>
+    <sound>sound\sound0_MJAU_6</sound>
+    <sound>sound\sound1_MJAU_7</sound>
+    <sound>sound\sound2_MJAU_8</sound>
+    <sound>sound\sound3_MJAU_9</sound>
     <sound>sound\sound4_Meow_1_e</sound>
     <sound>sound\sound5_Meow_2_e</sound>
     <sound>sound\sound6_Meow_3_e</sound>
-    <sound>sound\sound7_MJAU 0</sound>
-    <sound>sound\sound8_MJAU 1</sound>
-    <sound>sound\sound9_MJAU 2</sound>
-    <sound>sound\sound10_MJAU 3</sound>
-    <sound>sound\sound11_MJAU 4</sound>
-    <sound>sound\sound12_MJAU 5</sound>
+    <sound>sound\sound7_MJAU_0</sound>
+    <sound>sound\sound8_MJAU_1</sound>
+    <sound>sound\sound9_MJAU_2</sound>
+    <sound>sound\sound10_MJAU_3</sound>
+    <sound>sound\sound11_MJAU_4</sound>
+    <sound>sound\sound12_MJAU_5</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0_Rudolph_up</sprite>
-    <sprite>sprites\sprite1_Dumpster 2</sprite>
+    <sprite>sprites\sprite1_Dumpster_2</sprite>
     <sprite>sprites\sprite2_Dumpster</sprite>
-    <sprite>sprites\sprite3_road middle part</sprite>
+    <sprite>sprites\sprite3_road_middle_part</sprite>
     <sprite>sprites\sprite4_road</sprite>
     <sprite>sprites\sprite5_road_down</sprite>
     <sprite>sprites\sprite6_road_top</sprite>
     <sprite>sprites\sprite7_Rudolph</sprite>
     <sprite>sprites\sprite9_Rudolph_left</sprite>
     <sprite>sprites\sprite8_Rudolph_down</sprite>
+    <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Dumpster_Map</background>
     <background>background\Idea_For_Background</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\font0</font>
+  </fonts>
   <objects name="objects">
     <object>objects\Rudolph</object>
+    <object>objects\obj_menu</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_level</room>
     <room>rooms\room_mainmenu</room>
+    <room>rooms\room_level1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
