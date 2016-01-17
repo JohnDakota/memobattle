@@ -28,18 +28,17 @@
     <sprite>sprites\sprite5_road_down</sprite>
     <sprite>sprites\sprite6_road_top</sprite>
     <sprite>sprites\sprite7_Rudolph</sprite>
+    <sprite>sprites\sprite9_Rudolph_left</sprite>
     <sprite>sprites\sprite8_Rudolph_down</sprite>
-    <sprite>sprites\sprite9_Rudolph_n</sprite>
-    <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background">
-    <background>background\Dumpster Map</background>
+    <background>background\Dumpster_Map</background>
+    <background>background\Idea_For_Background</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\object0</object>
+    <object>objects\Rudolph</object>
   </objects>
-  <timelines name="timelines"/>
   <rooms name="rooms">
     <room>rooms\room_level</room>
     <room>rooms\room_mainmenu</room>
