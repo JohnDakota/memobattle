@@ -20,16 +20,10 @@
     <sound>sound\sound12_MJAU_5</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite0_Rudolph_up</sprite>
-    <sprite>sprites\sprite1_Dumpster_2</sprite>
-    <sprite>sprites\sprite2_Dumpster</sprite>
-    <sprite>sprites\sprite3_road_middle_part</sprite>
-    <sprite>sprites\sprite4_road</sprite>
-    <sprite>sprites\sprite5_road_down</sprite>
-    <sprite>sprites\sprite6_road_top</sprite>
-    <sprite>sprites\sprite7_Rudolph</sprite>
-    <sprite>sprites\sprite9_Rudolph_left</sprite>
-    <sprite>sprites\sprite8_Rudolph_down</sprite>
+    <sprite>sprites\sprudolph_up_notail</sprite>
+    <sprite>sprites\sprudolph_right_notail</sprite>
+    <sprite>sprites\sprudolph_left_notail</sprite>
+    <sprite>sprites\sprudolph_down_notail</sprite>
     <sprite>sprites\sprite10</sprite>
   </sprites>
   <backgrounds name="background">
