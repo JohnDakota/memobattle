@@ -40,8 +40,8 @@ levelsize[1,1] = 20;
 pos[0] = startposition[currentlevel, 0];
 pos[1] = startposition[currentlevel, 1];
 
-x = pos[0]*32+32;
-y = pos[1]*32+64;
+x = pos[0]*32+48;
+y = pos[1]*32+80;
 </string>
           </argument>
         </arguments>
@@ -68,7 +68,7 @@ y = pos[1]*32+64;
 
 if (pos[1] &gt;= 1) pos[1] -= 1;
 
-y = pos[1]*32+64;
+y = pos[1]*32+80;
 </string>
           </argument>
         </arguments>
@@ -95,7 +95,7 @@ y = pos[1]*32+64;
 
 if (pos[1] &lt;= levelsize[currentlevel,1]-2) pos[1] += 1;
 
-y = pos[1]*32+64;
+y = pos[1]*32+80;
 </string>
           </argument>
         </arguments>
@@ -122,7 +122,7 @@ y = pos[1]*32+64;
 
 if (pos[0] &lt;= levelsize[currentlevel,0] - 2) pos[0] += 1;
 
-x = pos[0]*32+32;
+x = pos[0]*32+48;
 </string>
           </argument>
         </arguments>
@@ -149,7 +149,7 @@ x = pos[0]*32+32;
 
 if (pos[0] &gt;= 1) pos[0] -= 1;
 
-x = pos[0]*32+32;
+x = pos[0]*32+48;
 </string>
           </argument>
         </arguments>
@@ -176,7 +176,7 @@ x = pos[0]*32+32;
 
 if (pos[1] &lt;= levelsize[currentlevel,1]-2) pos[1] += 1;
 
-y = pos[1]*32+64;
+y = pos[1]*32+80;
 </string>
           </argument>
         </arguments>
@@ -203,7 +203,7 @@ y = pos[1]*32+64;
 
 if (pos[0] &lt;= levelsize[currentlevel,0] - 2) pos[0] += 1;
 
-x = pos[0]*32+32;
+x = pos[0]*32+48;
 </string>
           </argument>
         </arguments>
@@ -230,7 +230,7 @@ x = pos[0]*32+32;
 
 if (pos[1] &gt;= 1) pos[1] -= 1;
 
-y = pos[1]*32+64;
+y = pos[1]*32+80;
 </string>
           </argument>
         </arguments>
@@ -257,7 +257,7 @@ y = pos[1]*32+64;
 
 if (pos[0] &gt;= 1) pos[0] -= 1;
 
-x = pos[0]*32+32;
+x = pos[0]*32+48;
 </string>
           </argument>
         </arguments>
